@@ -1,0 +1,78 @@
+body {
+    background-color: #969393;
+    font-family: Arial, sans-serif;
+}
+
+.wimsbody {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title_box {
+    margin-bottom: 20px;
+}
+
+.title_box h1 {
+    color: #1468A0;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #1468A0;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.wimscenter {
+    text-align: center;
+}
+
+.wims_instruction {
+    margin-top: 20px;
+}
+
+.wims_instruction ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wims_instruction li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1468A0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    display: none;
+}
+
+#back-to-top:hover {
+    background-color: #004077;
+}
