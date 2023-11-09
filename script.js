@@ -21,17 +21,18 @@ function convertToDecimal() {
     const decimalOutput = document.getElementById("decimalOutput");
 
     // Validate input
-    if (!numberInput.match(/^[0-9A-Fa-f]+$/)) {
-        alert("Invalid input! Please enter a valid hexadecimal number.");
+    if (!/^\d+$/.test(numberInput)) {
+        alert("Invalid input! Please enter a valid decimal number.");
         return;
     }
 
-    // Convert to decimal
-    const decimalValue = parseInt(numberInput, 16);
+    // Convert to decimal (parse as base-10)
+    const decimalValue = parseInt(numberInput, 10);
 
     // Display result
     decimalOutput.innerHTML = "Decimal: " + decimalValue;
 }
+
 
 function resetBases() {
     document.getElementById("numberInput").value = "";
